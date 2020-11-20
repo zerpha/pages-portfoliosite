@@ -1,16 +1,54 @@
 .App {
   text-align: center;
+  font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topdiv {
+  background-image: url('./images/kite-background.png');
+  padding: 150px; 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.education {
+  background-color: #545376;
+  padding: 150px; 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects{
+  padding: 150px;
+  height: 100%;
+}
+
+.hobbies{
+  background-color: #802020;
+  padding: 120px;
+  height: 100%;
+}
+
+
+.center{
+  display: inline-block;
+}
+
+.topdiv p{
+  font-size: 24px;
+}
+
+.education p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navheader{
+  font-weight: bold;
+  
 }
 
 .App-header {
@@ -24,15 +62,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
