@@ -31,10 +31,10 @@ function App() {
           <header style = {{fontSize: "50px", fontWeight: "bold"}}>MY LIFE</header>
           <br></br><br></br>
           <p>
-          Hi there! I am a guy that likes coding and video games. My passion is working with backend software, but
-          I also really enjoy front-end web development as a forces me to be creative rather than just logical.
+          Hi there! I am a guy that likes coding and video games. My passion is working with backend software and DevOps, but
+          I also really enjoy front-end web development as it forces me to be creative rather than just logical.
           Right now I am studying cloud computing and trying to get my AWS Associates Certificate. 
-          I am currently a senior ungraduate student studying 
+          I am currently a senior undergraduate student studying 
           Computer Science for a Bachelors Degree at University of
           California, Santa Cruz. Currently looking for 
           a Software Engineer internship or full-time for the coming 2021 summer. 
@@ -94,6 +94,20 @@ function App() {
                 <header>PROJECTS</header>
         </div>
         <CardDeck>
+        <Card>
+            <Card.Img variant="top" src="https://thumbs.dreamstime.com/t/clean-soft-pink-background-wide-angle-light-blur-white-gradient-texture-design-beautiful-abstract-panoramic-wallpaper-122497959.jpg" />
+            <Card.Body>
+              <Card.Title>PinkNotes</Card.Title>
+              <Card.Text>
+              Designed a single-page note taking web application to help students create and organize their notes using MERN technologies.
+              Used Passport.js and jsonwebtoken to authenticate users when calling CRUD operations.
+              Built a REST API using Node and Express to create a client-server architecture.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <Card.Link href="https://github.com/zerpha/PinkNotes">Source Code</Card.Link>
+            </Card.Footer>
+          </Card>
           <Card>
             <Card.Img variant="top" src="https://rocketeers.gg/wp-content/uploads/2018/01/discord.jpg" />
             <Card.Body>
@@ -120,7 +134,10 @@ function App() {
               <Card.Link href="https://github.com/zerpha/TenCoin">Source Code</Card.Link>
             </Card.Footer>
           </Card>
-          <Card>
+        </CardDeck>
+        <br></br>
+        <CardDeck>
+        <Card>
             <Card.Img variant="top" src="https://cdn.hipwallpaper.com/i/56/62/KeAIlY.png"/>
             <Card.Body>
               <Card.Title>Pokedex</Card.Title>
